@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Tickets
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+    registerWithEureka: true
+    fetchRegistry: true
+  instance:
+    preferIpAddress: true
+
