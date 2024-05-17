@@ -14,7 +14,6 @@ public class VuelosControlador {
     @Autowired
     VuelosServicio vuelosServicio;
 
-//    @GetMapping("/todos")
 @GetMapping("")
     public List<Vuelo> listarVuelos(){
         return vuelosServicio.listarTodos();

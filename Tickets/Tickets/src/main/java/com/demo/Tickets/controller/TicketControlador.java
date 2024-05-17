@@ -32,29 +32,4 @@ public class TicketControlador {
         return ticketServicio.createTicket(ticket);
     }
 
-    /*
-    @GetMapping("/{id}")
-    public Ticket findTicketById(@PathVariable Long id) {
-        return ticketServicio.findById(id);
-    }
-
-    @DeleteMapping("/delete/{id}")
-    public String deleteTicket(@PathVariable Long id) {
-
-        try {
-            ticketServicio.deleteTicket(id);
-            return "Ticket eliminado con exito";
-
-        } catch (ResourceNotFoundException e) {
-            e.printStackTrace();
-            return "No existe el ticket con el Id seleccionado";
-        }
-
-    }
-
-    @PutMapping("/update")
-    public Ticket updateTicket(@RequestBody Ticket ticket) {
-        return ticketServicio.updateTicket(ticket);
-    }
-*/
-}
+ }

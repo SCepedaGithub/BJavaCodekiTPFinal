@@ -1,5 +1,3 @@
-#spring.application.name=Eureka-Server
-
 spring:
   application:
     name: Eureka-Server

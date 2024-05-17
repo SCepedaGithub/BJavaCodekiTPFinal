@@ -1,11 +1,8 @@
 package com.cac.vuelos.models;
 
 import java.time.LocalDateTime;
-
 import jakarta.persistence.*;
-
 import lombok.*;
-
 
 @Data
 @Builder
@@ -37,17 +34,6 @@ public class Vuelo {
         this.origen = origen;
         this.compañia = compañia;
     }
-/*
-    public Vuelo(Long id, String destino, LocalDateTime fechaHoraSalida, LocalDateTime fechaHoraLlegada, double precioEnPesos, String frecuencia, String origen, Compañia compañia) {
-        this.id = id;
-        this.destino = destino;
-        this.fechaHoraSalida = fechaHoraSalida;
-        this.fechaHoraLlegada = fechaHoraLlegada;
-        this.precioEnPesos = precioEnPesos;
-        this.frecuencia = frecuencia;
-        this.origen = origen;
-        this.compañia = compañia;
-    }*/
 
     public void setId(Long id) {
         this.id = id;

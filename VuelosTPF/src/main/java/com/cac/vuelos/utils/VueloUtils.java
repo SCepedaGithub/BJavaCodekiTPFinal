@@ -6,7 +6,6 @@ import com.cac.vuelos.models.VueloDto;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-
 import java.util.List;
 import java.util.stream.Collectors;
 
